@@ -12,8 +12,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     box-sizing: border-box;
 }
 #header{
-    /*align-items: center;*/
-    /*justify-content: space-between;*/
     z-index: 999;
     position: sticky;
     top:0;
@@ -284,64 +282,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     background:#ff00ff;
     color:#fff;
 }
-/*#sm-banner{
-   display: flex;
-   justify-content: space-between;
-   flex-wrap: wrap;
-}
-#sm-banner .banner-box{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    text-align: center;
-    background-image:url("images/home-page/banner3.jpg");
-    min-width: 580px;
-    height:50vh;
-    background-size: cover;
-    background-position: center;
-    padding: 30px;
-}
-#sm-banner h4{
-    color:#000;
-    font-size:20px;
-    font-weight: 300;
-}
-#sm-banner h2{
-    color:#000;
-    font-size:28px;
-    font-weight: 800;
-    padding-bottom: 5px;
-}
-#sm-banner span{
-    color:#000;
-    font-size:14px;
-    font-weight: 500;
-    padding-bottom: 15px;
-}
-#sm-banner .banner-box2{
-    background-image: url("images/home-page/banner4.jpg")
-}
-#sm-banner .white{
-    font-size: 13px;
-    font-weight: 600;
-    padding: 11px 18px;
-    color:black;
-    background-color: transparent;
-    border-radius: 4px;
-    cursor: pointer;
-    border:1px solid black;
-    outline:none;
-    transition: 0.2s;
-}
-#sm-banner .banner-box:hover button{
-    background: #cc33ff;
-    border:1px solid black;
-}
-#sm-banner .banner-box2:hover button{
-    background:    #9966ff;
-    border:1px solid black;
-}*/
+
 /*Footer*/
 
 footer{
@@ -375,18 +316,6 @@ footer a{
     color: #222;
     margin-bottom: 10px;
 }
-/*footer .follow{
-    margin-top: 20px;
-}*/
-/*footer .follow i{
-   color: #465b52;
-   padding-right: 4px;
-   cursor: pointer; 
-}*/
-/*footer .install .row img{
-    border-radius:6px;
-}
-footer .follow i:hover,*/
 footer a{
     color:blue;
 }
