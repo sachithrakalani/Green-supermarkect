@@ -27,7 +27,7 @@
                                         <div class="sub-menu-2">
                                             <ul>
                                                 <li><a href="Wcloth.jsp">All Deress</a></li>
-                                                <li><a href="#">T shirts</a></li>
+                                                <li><a href="womenclothestshirt.jsp">T shirts</a></li>
                                                 <li><a href="#">Blouse</a></li>
                                                 <li><a href="#">Skirt</a></li>
                                                 <li><a href="#">Saree</a></li>
@@ -69,7 +69,7 @@
                                             <ul>
                                                 <li><a href="#">Casual Slippers</a></li>
                                                 <li><a href="#">Fashion Slippers</a></li>
-                                                <li><a href="#">Leather Slippers</a></li>
+                                                <li><a href="womenshoesleather.jsp">Leather Slippers</a></li>
                                                 <li><a href="#">Running Shoes</a></li>
                                             </ul>  
                                         </div>
