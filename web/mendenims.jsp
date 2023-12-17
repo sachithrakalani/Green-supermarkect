@@ -50,15 +50,6 @@
                                         </div>
                                     </li>
                                     <li class="hover-me"><a href="kidsclothes.jsp">Kids</a>
-<!--                                        <div class="sub-menu-2">
-                                            <ul>
-                                                <li><a href="#">All Deress</a></li>
-                                                <li><a href="#">T shirts</a></li>
-                                                <li><a href="#">Formal Shirt</a></li>
-                                                <li><a href="#">Trousers</a></li>
-                                                <li><a href="#">Denims</a></li>
-                                            </ul>  
-                                        </div>-->
                                     </li>
                                 </ul>
                             </div>
@@ -66,33 +57,15 @@
                         <li><a href="#">Shoes</a>
                             <div class="sub-menu-1">
                                 <ul>
-                                    <li class="hover-me"><a href="#">Women</a><i class="fa fa-angle-right"></i>
-                                        <div class="sub-menu-2">
-                                            <ul>
-                                                <li><a href="#">Casual Slippers</a></li>
-                                                <li><a href="#">Fashion Slippers</a></li>
-                                                <li><a href="womenshoesleather.jsp">Leather Slippers</a></li>
-                                                <li><a href="#">Running Shoes</a></li>
-                                            </ul>  
-                                        </div>
+                                    <li class="hover-me"><a href="womenshoes.jsp">Women</a>                                        
                                     </li>
-                                    <li class="hover-me"><a href="#">Men</a><i class="fa fa-angle-right"></i>
-                                        <div class="sub-menu-2">
-                                            <ul>
-                                                <li><a href="#">Casual Slippers</a></li>
-                                                <li><a href="#">Fashion Slippers</a></li>
-                                                <li><a href="#">Leather Slippers</a></li>
-                                                <li><a href="#">Running Shoes</a></li>
-                                            </ul>  
-                                        </div>
+                                    <li class="hover-me"><a href="#">Men</a>
                                     </li>
                                 </ul>
                             <div>
                         </li>
                         <li><a href="#">Cosmetics</a></li>
                         <li><a href="#">Jewelry</a></li>
-                        <!-- <li><a href="#">About us</a></li>
-                        <li><a href="#">Contact Us</a></li> -->
                         <li><a href="cart.jsp"><i class="fa-solid fa-cart-shopping"></i></i></a></li>
                         <li><a href="signUp.jsp"><i class="fa fa-user-circle" aria-hidden="true"></i></a></li>
                     </ul>
