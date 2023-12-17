@@ -29,7 +29,7 @@
                                                 <li><a href="Wcloth.jsp">All Deress</a></li>
                                                 <li><a href="womenclothestshirt.jsp">T shirts</a></li>
                                                 <li><a href="womenclothesblouse.jsp">Blouse</a></li>
-                                                <li><a href="#">Skirt</a></li>
+                                                <li><a href="womenclothesfrock.jsp">Frocks</a></li>
                                                 <li><a href="womenclothessaree.jsp">Saree</a></li>
                                                 <li><a href="#">Denims</a></li>
                                             </ul>  
