@@ -43,7 +43,7 @@
                                                 <li><a href="#">T shirts</a></li>
                                                 <li><a href="#">Formal Shirt</a></li>
                                                 <li><a href="#">Trousers</a></li>
-                                                <li><a href="#">Denims</a></li>
+                                                <li><a href="womenclothesdenims.jsp">Denims</a></li>
                                              </ul>  
                                         </div>
                                     </li>

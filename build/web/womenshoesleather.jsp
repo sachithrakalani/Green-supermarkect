@@ -21,7 +21,7 @@
                 <div id="navbar"> 
                     <ul>
                         <li><a href="index.jsp">Home</a></li>
-                        <li><a class="active" href="womenclothes.jsp">Clothes</a>
+                        <li><a href="womenclothes.jsp">Clothes</a>
                             <div class="sub-menu-1">
                                 <ul>
                                     <li class="hover-me"><a href="#">Women</a><i class="fa fa-angle-right"></i>
@@ -32,7 +32,7 @@
                                                 <li><a href="womenclothesblouse.jsp">Blouse</a></li>
                                                 <li><a href="#">Skirt</a></li>
                                                 <li><a href="#">Saree</a></li>
-                                                <li><a href="#">Denims</a></li>
+                                                <li><a href="womenclothesdenims.jsp">Denims</a></li>
                                             </ul>  
                                             
                                         </div>
@@ -44,7 +44,7 @@
                                                 <li><a href="#">T shirts</a></li>
                                                 <li><a href="#">Formal Shirt</a></li>
                                                 <li><a href="#">Trousers</a></li>
-                                                <li><a href="#">Denims</a></li>
+                                                <li><a href="">Denims</a></li>
                                              </ul>  
                                         </div>
                                     </li>

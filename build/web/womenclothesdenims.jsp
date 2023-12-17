@@ -1,6 +1,6 @@
 <%-- 
-    Document   : womenclothesblouse.jsp
-    Created on : Dec 17, 2023, 1:57:05 PM
+    Document   : womenclothesdenims.jsp
+    Created on : Dec 17, 2023, 2:09:58 PM
     Author     : SKS
 --%>
 
@@ -9,12 +9,12 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Women Blouse Page</title>
+        <title>Women Denims Page</title>
         <link rel="stylesheet" href="Green-supermarkect.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
-        <section id="header" style="background-color: #E3E6F3; width:100%;height:80px;">
+       <section id="header" style="background-color: #E3E6F3; width:100%;height:80px;">
             <a href="#"><img src="images/home-page/homebackground1.jpg" id="logo"  style ="float: left;width: 100px;height: 70px; padding:10px 20px"alt=""/></a>
             <div>
                 <div id="navbar"> 
@@ -107,321 +107,180 @@
         <section id="product1" class="section-p1"style="padding:40px 80px">
             <div class="pro-container">
                 <div class="pro">
-                    <img src="images/clothes-page/Women clothes/Blouse/b1.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
+                    <img src="images/clothes-page/Women clothes/Denims/d1.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
                     <div class="des">
-                        <span>adidas</span>
-                        <h5>Party Frock</h5>
-                        <div class="star">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
+                        <!--<span>adidas</span>-->
+                        <h5>Party Frock</h5>                        
                         <h4>LKR 5,000.00</h4>
                     </div>
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/clothes-page/Women clothes/Blouse/b2.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
+                    <img src="images/clothes-page/Women clothes/Denims/d2.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
                     <div class="des">
                         <span>adidas</span>
                         <h5>Party Frock</h5>
-                        <div class="star">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
                         <h4>LKR 5,000.00</h4>
                     </div>
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/clothes-page/Women clothes/Blouse/b3.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
+                    <img src="images/clothes-page/Women clothes/Denims/d3.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
                     <div class="des">
-                        <span>adidas</span>
+                        <!--<span>adidas</span>-->
                         <h5>Party Frock</h5>
-                        <div class="star">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
+                       <h4>LKR 5,000.00</h4>
+                    </div>
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="images/clothes-page/Women clothes/Denims/d4.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
+                    <div class="des">
+                        <!--<span>adidas</span>-->
+                        <h5>Party Frock</h5>
                         <h4>LKR 5,000.00</h4>
                     </div>
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/clothes-page/Women clothes/Blouse/b4.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
+                    <img src="images/clothes-page/Women clothes/Denims/d5.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
                     <div class="des">
-                        <span>adidas</span>
+                        <!--<span>adidas</span>-->
                         <h5>Party Frock</h5>
-                        <div class="star">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
                         <h4>LKR 5,000.00</h4>
                     </div>
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/clothes-page/Women clothes/Blouse/b5.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
+                    <img src="images/clothes-page/Women clothes/Denims/d6.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
                     <div class="des">
-                        <span>adidas</span>
+                        <!--<span>adidas</span>-->
                         <h5>Party Frock</h5>
-                        <div class="star">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
                         <h4>LKR 5,000.00</h4>
                     </div>
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/clothes-page/Women clothes/Blouse/b6.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
+                    <img src="images/clothes-page/Women clothes/Denims/d7.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
                     <div class="des">
-                        <span>adidas</span>
+                        <!--<span>adidas</span>-->
                         <h5>Party Frock</h5>
-                        <div class="star">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
                         <h4>LKR 5,000.00</h4>
                     </div>
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/clothes-page/Women clothes/Blouse/b7.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
+                    <img src="images/clothes-page/Women clothes/Denims/d8.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
                     <div class="des">
-                        <span>adidas</span>
+                        <!--<span>adidas</span>-->
                         <h5>Party Frock</h5>
-                        <div class="star">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
                         <h4>LKR 5,000.00</h4>
                     </div>
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/clothes-page/Women clothes/Blouse/b8.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
+                    <img src="images/clothes-page/Women clothes/Denims/d9.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
                     <div class="des">
-                        <span>adidas</span>
+                        <!--<span>adidas</span>-->
                         <h5>Party Frock</h5>
-                        <div class="star">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
                         <h4>LKR 5,000.00</h4>
                     </div>
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/clothes-page/Women clothes/Blouse/b9.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
+                    <img src="images/clothes-page/Women clothes/Denims/d10.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
                     <div class="des">
-                        <span>adidas</span>
+                        <!--<span>adidas</span>-->
                         <h5>Party Frock</h5>
-                        <div class="star">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
                         <h4>LKR 5,000.00</h4>
                     </div>
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/clothes-page/Women clothes/Blouse/b10.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
+                    <img src="images/clothes-page/Women clothes/Denims/d11.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
                     <div class="des">
-                        <span>adidas</span>
+                        <!--<span>adidas</span>-->
                         <h5>Party Frock</h5>
-                        <div class="star">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
                         <h4>LKR 5,000.00</h4>
                     </div>
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/clothes-page/Women clothes/Blouse/b11.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
+                    <img src="images/clothes-page/Women clothes/Denims/d12.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
                     <div class="des">
-                        <span>adidas</span>
+                        <!--<span>adidas</span>-->
                         <h5>Party Frock</h5>
-                        <div class="star">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
                         <h4>LKR 5,000.00</h4>
                     </div>
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/clothes-page/Women clothes/Blouse/b12.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
+                    <img src="images/clothes-page/Women clothes/Denims/d13.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
                     <div class="des">
-                        <span>adidas</span>
+                        <!--<span>adidas</span>-->
                         <h5>Party Frock</h5>
-                        <div class="star">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
                         <h4>LKR 5,000.00</h4>
                     </div>
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/clothes-page/Women clothes/Blouse/b13.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
+                    <img src="images/clothes-page/Women clothes/Denims/d14.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
                     <div class="des">
-                        <span>adidas</span>
+                        <!--<span>adidas</span>-->
                         <h5>Party Frock</h5>
-                        <div class="star">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
                         <h4>LKR 5,000.00</h4>
                     </div>
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/clothes-page/Women clothes/Blouse/b14.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
+                    <img src="images/clothes-page/Women clothes/Denims/d15.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
                     <div class="des">
-                        <span>adidas</span>
+                        <!--<span>adidas</span>-->
                         <h5>Party Frock</h5>
-                        <div class="star">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
                         <h4>LKR 5,000.00</h4>
                     </div>
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/clothes-page/Women clothes/Blouse/b15.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
+                    <img src="images/clothes-page/Women clothes/Denims/d16.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
                     <div class="des">
-                        <span>adidas</span>
-                        <h5>Party Frock</h5>
-                        <div class="star">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
+                        <!--<span>adidas</span>-->
                         <h4>LKR 5,000.00</h4>
                     </div>
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/clothes-page/Women clothes/Blouse/b16.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
+                    <img src="images/clothes-page/Women clothes/Denims/d17.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
                     <div class="des">
-                        <span>adidas</span>
+                        <!--<span>adidas</span>-->
                         <h5>Party Frock</h5>
-                        <div class="star">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
                         <h4>LKR 5,000.00</h4>
                     </div>
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/clothes-page/Women clothes/Blouse/b17.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
+                    <img src="images/clothes-page/Women clothes/Denims/d18.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
                     <div class="des">
-                        <span>adidas</span>
+                        <!--<span>adidas</span>-->
                         <h5>Party Frock</h5>
-                        <div class="star">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
                         <h4>LKR 5,000.00</h4>
                     </div>
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/clothes-page/Women clothes/Blouse/b18.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
+                    <img src="images/clothes-page/Women clothes/Denims/d19.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
                     <div class="des">
-                        <span>adidas</span>
+                        <!--<span>adidas</span>-->
                         <h5>Party Frock</h5>
-                        <div class="star">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
                         <h4>LKR 5,000.00</h4>
                     </div>
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/clothes-page/Women clothes/Blouse/b19.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
+                    <img src="images/clothes-page/Women clothes/Denims/d20.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
                     <div class="des">
-                        <span>adidas</span>
+                        <!--<span>adidas</span>-->
                         <h5>Party Frock</h5>
-                        <div class="star">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
-                        <h4>LKR 5,000.00</h4>
-                    </div>
-                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
-                </div>
-                <div class="pro">
-                    <img src="images/clothes-page/Women clothes/Blouse/b20.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
-                    <div class="des">
-                        <span>adidas</span>
-                        <h5>Party Frock</h5>
-                        <div class="star">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
                         <h4>LKR 5,000.00</h4>
                     </div>
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
@@ -465,6 +324,6 @@
             <div class="copyright">
                 <p>E Commerces App - 2023</p>
             </div>
-        </footer>
+        </footer> 
     </body>
 </html>
