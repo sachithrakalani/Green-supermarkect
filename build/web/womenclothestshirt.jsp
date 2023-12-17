@@ -31,7 +31,7 @@
                                                 <li><a href="womenclothesblouse.jsp">Blouse</a></li>
                                                 <li><a href="womenclothesfrock.jsp">Frocks</a></li>
                                                 <li><a href="womenclothessaree.jsp">Saree</a></li>
-                                                <li><a href="#">Denims</a></li>
+                                                <li><a href="mendenims.jsp">Denims</a></li>
                                             </ul>  
                                             
                                         </div>
