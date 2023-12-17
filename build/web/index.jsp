@@ -48,16 +48,16 @@
                                              </ul>  
                                         </div>
                                     </li>
-                                    <li class="hover-me"><a href="#">Kids</a><i class="fa fa-angle-right"></i>
-                                        <div class="sub-menu-2">
+                                    <li class="hover-me"><a href="kidsclothes.jsp">Kids</a><i class="fa fa-angle-right"></i>
+<!--                                        <div class="sub-menu-2">
                                             <ul>
-                                                <!--<li><a href="#">All Deress</a></li>-->
+                                                <li><a href="#">All Deress</a></li>
                                                 <li><a href="#">T shirts</a></li>
                                                 <li><a href="#">Formal Shirt</a></li>
                                                 <li><a href="#">Trousers</a></li>
                                                 <li><a href="#">Denims</a></li>
                                             </ul>  
-                                        </div>
+                                        </div>-->
                                     </li>
                                 </ul>
                             </div>
