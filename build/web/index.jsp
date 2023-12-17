@@ -21,7 +21,7 @@
                 <div id="navbar"> 
                     <ul>
                         <li ><a class="active" href="index.jsp">Home</a></li>
-                        <li><a href="Wcloth.jsp">Clothes</a>
+                        <li><a href="womenclothes.jsp">Clothes</a>
                             <div class="sub-menu-1">
                                 <ul>
                                     <li class="hover-me"><a href="#">Women</a><i class="fa fa-angle-right"></i>
