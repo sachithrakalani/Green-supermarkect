@@ -358,6 +358,82 @@ footer .copyright{
     font-weight: 600;
 }
 
+/*SIGN UP PAGE*/
+.contaniner{
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/clothes-page/clothesback1.jpg");
+    /*background-position: center;*/ 
+    background-size: cover;
+    position: relative;
+}
+.wrapper{
+    width:350px;
+    padding:2rem 2rem;
+    /*margin:50px auto;*/
+    background-color: #fff;
+    border-radius: 10px;
+    text-align:center;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+}
+.wrapper h1{
+    font-size: 2rem;
+    color:black;
+    margin-bottom: 1.2rem;
+}
+.wrapper form input{
+    width: 92%;
+    outline:none;
+    border:1px solid #fff;
+    padding:12px 20px;
+    margin-bottom: 10px;
+    border-radius:20px;
+    background:#e4e4e4;
+    /*background-image: url("images/clothes-page/clothesback1.jpg");*/
+}
+.wrapper button{
+    font-size:1rem;
+    margin-top:1.8rem;
+    padding:10px 0;
+    border-radius: 20px;
+    outline:none;
+    border:none;
+    width:90%;
+    color:#fff;
+    cursor: pointer;
+    background:rgb(17,107,143);
+}
+.wrapper button:hover{
+    background: rgba(17,107,143,0.877);
+}
+.wrapper input:focus{
+    border:1px solid rgb(192,192,192);
+}
+.terms{
+    margin-top: 0.2rem;
+}
+.terms input{
+    height: 1rem;
+    width: 1rem;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.terms lable{
+    font-size: 0.7rem;
+}
+.terms a{
+   color:rgb(17,107,143);
+   text-decoration: none;
+}
+.member{
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
+    color:#636363;
+}
+.member a{
+    color:rgb(17,107,143);
+    text-decoration: none;
+}
 
 
 
