@@ -59,7 +59,7 @@
                             <div>
                         </li>
                         <li><a href="#">Cosmetics</a></li>
-                        <li><a href="#">Jewelry</a></li>
+                        <li><a href="jewelry.jsp">Jewelry</a></li>
                         <li><a href="cart.jsp"><i class="fa-solid fa-cart-shopping"></i></i></a></li>
                         <li><a href="signUp.jsp"><i class="fa fa-user-circle" aria-hidden="true"></i></a></li>
                     </ul>
@@ -255,12 +255,6 @@
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>               
         </section>
-        
-<!--        <section id="pagination" class="section-p1">
-            <a href="Wcloth1.jsp">1</a>
-            <a href="#">2</a>
-            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
-        </section>-->
         
         <footer class="section-p1">
             <div class="col">
