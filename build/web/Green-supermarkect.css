@@ -435,6 +435,290 @@ footer .copyright{
     text-decoration: none;
 }
 
+/*CLOTHES PAGE*/
+
+.items-view{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right:-200px;
+    flex-wrap: wrap;
+    /*border:1px solid red;*/
+}
+
+.items-view #product1{
+    text-align: center;
+    /*border:1px solid blue;*/
+}
+.items-view #product1 .pro{
+    width: 200px;
+    height: 310px;   
+    /*min-width:250px;*/
+    margin: 10px 20px;
+    /*padding:5px 5px;*/
+    border:1px solid  #cce7d0;
+    border-radius:20px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
+    transition: 0.2s ease;
+    position: relative;
+}
+.items-view #product1 .pro:hover{
+   box-shadow: 20px 20px 30px rgba(0,0,0,0.06); 
+}
+#img{
+    /*width:100%;*/
+    border-radius:5px;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+.items-view #product1 .pro .des{
+    text-align: start;
+    padding: 10px 20px;
+}
+.items-view #product1 .pro .des .span{
+    color:#606063;
+    font-size: 12px;
+}
+.items-view #product1 .pro .des h5{
+    padding-top: 7px;
+    color:#1a1a1a;
+    font-size: 14px;
+}
+.items-view #product1 .pro .des i{
+    font-size: 12px;
+    color:rgb(243,181,25);
+}
+.items-view #product1 .pro .des h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #088178;
+}
+.items-view #product1 .pro .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    color: #088178;
+    border: 1px solid #cce7d0;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+#page-header{
+    background-image: url("images/clothes-page/clothesback1.jpg");
+    width:98.1%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:14px;
+}
+#page-header h2,
+#page-header p{
+    padding-left: 280px;
+/*    border:1px solid red;*/
+}
+#pagination{
+    text-align: center;
+    padding-bottom:40px; 
+}
+#pagination a{
+    text-decoration: none;
+    background-color: #cc33ff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color:white;
+    font-weight: 600;
+}
+#pagination a i{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/*SIGN UP*/
+
+.contaniner{
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/clothes-page/clothesback1.jpg");
+    /*background-position: center;*/ 
+    background-size: cover;
+    position: relative;
+}
+.wrapper{
+    width:350px;
+    padding:2rem 2rem;
+    /*margin:50px auto;*/
+    background-color: #fff;
+    border-radius: 10px;
+    text-align:center;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+}
+.wrapper h1{
+    font-size: 2rem;
+    color:black;
+    margin-bottom: 1.2rem;
+}
+.wrapper form input{
+    width: 92%;
+    outline:none;
+    border:1px solid #fff;
+    padding:12px 20px;
+    margin-bottom: 10px;
+    border-radius:20px;
+    background:#e4e4e4;
+    /*background-image: url("images/clothes-page/clothesback1.jpg");*/
+}
+.wrapper button{
+    font-size:1rem;
+    margin-top:1.8rem;
+    padding:10px 0;
+    border-radius: 20px;
+    outline:none;
+    border:none;
+    width:90%;
+    color:#fff;
+    cursor: pointer;
+    background:rgb(17,107,143);
+}
+.wrapper button:hover{
+    background: rgba(17,107,143,0.877);
+}
+.wrapper input:focus{
+    border:1px solid rgb(192,192,192);
+}
+.terms{
+    margin-top: 0.2rem;
+}
+.terms input{
+    height: 1rem;
+    width: 1rem;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.terms lable{
+    font-size: 0.7rem;
+}
+.terms a{
+   color:rgb(17,107,143);
+   text-decoration: none;
+}
+.member{
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
+    color:#636363;
+}
+.member a{
+    color:rgb(17,107,143);
+    text-decoration: none;
+}
+
+/*SINGLE CLOTH PRODUCT PAGE*/
+
+#prodetails{
+     display: flex;
+     margin-top: 50px;
+ }
+ #prodetails .single-pro-image{
+     width: 40%;
+     /*border:1px solid red;*/
+ }
+ #prodetails .single-pro-details{
+     width: 40%;
+     padding-top: 40px;
+     /*border:1px solid blue;*/
+ }
+ #prodetails .single-pro-details input{
+     width: 25px;
+     height:30px;
+     padding-left: 10px;
+     font-size: 16px;
+     margin-right: 10px;
+     border:1px solid black;
+     border-radius: 3px;
+ }
+ .single-pro-details #normal{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color:#fff;
+    background-color: #088178;
+    border-radius: 4px;
+    cursor: pointer;
+    border:none;
+    outline:none;
+    transition: 0.2s;
+ }
+ 
+ /*ADD TO CART PAGE*/
+ 
+ .cart{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+.cart .column{
+  flex: 50%;
+}
+ .cart .column .add-to-cart p{
+    font-size: 40px;
+    font-weight: 100;
+    padding: 30px 80px;
+}
+.cart .column .add-to-cart .section-p1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /*border:2px solid red;*/
+}
+.cart .column .add-to-cart .section-p1 .dress-details{
+    padding-top: 80px;
+    /*border:2px solid blue;*/
+}
+.cart .column .add-to-cart .section-p1 .dress-details input{
+    width: 25px;
+    height:30px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border:2px solid black;
+    border-radius: 3px;
+}
+.summary{
+    width: 200px;
+    height: 300px;
+    /*background: lightgray;*/
+    /*border:2px solid black;*/
+}
+.summary-details{
+    width: 200px;
+    height: 300px;
+    text-align: left;
+    background: lightgray;
+    /*border:2px solid red;*/
+    padding: 100px 50px;
+}
+.summary-details #normal{
+    font-size: 10px;
+    font-weight: 100;
+    padding: 12px 60px;
+    color:#fff;
+    background-color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    border:none;
+    outline:none;
+    transition: 0.2s;
+}
+
+
 
 
 

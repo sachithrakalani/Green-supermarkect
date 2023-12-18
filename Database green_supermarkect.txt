@@ -1,0 +1,45 @@
+create database green_supermarkect;
+use green_supermarkect;
+create table user_info(
+    -> first_name varchar(50),
+    -> last_name varchar(50),
+    -> phone_no varchar(25),
+    -> email varchar(50),
+    -> password varchar(50)
+    -> );
+
+create table clothes_details(
+    -> clothes_id varchar(50),
+    -> clothes_name varchar(50),
+    -> prices int,
+    -> item_des varchar(255),
+    -> qty int,
+    -> image_path varchar(255)
+    -> );
+
+ insert into clothes_details(
+     clothes_id,clothes_name,prices,item_des,qty,image_path)values(
+ 	"wf001","Normal Frock",2500.00,"Lightweight and perfect fit, easy to wash, Super Soft and comfortable. All-day comfort Consider it your wardrobe staple for any and every occasion. Material Viscose Sleeve type Regular fit Solid pattern dress",10,"images/clothes-page/Women-clothes/Frocks/f21.jpg"),(
+	"wf002","Normal Frock",2600.00,"Lightweight and perfect fit, easy to wash, Super Soft and comfortable. All-day comfort Consider it your wardrobe staple for any and every occasion. Material Viscose Sleeve type Regular fit Solid pattern dress",10,"images/clothes-page/Women-clothes/Frocks/f1.jpg"),(
+	"wf003","Normal Frock",2600.00,"Lightweight and perfect fit, easy to wash, Super Soft and comfortable. All-day comfort Consider it your wardrobe staple for any and every occasion. Material Viscose Sleeve type Regular fit Solid pattern dress",10,"images/clothes-page/Women-clothes/Frocks/f2.jpg"),(
+    	"wf004","Normal Frock",2600.00,"Lightweight and perfect fit, easy to wash, Super Soft and comfortable. All-day comfort Consider it your wardrobe staple for any and every occasion. Material Viscose Sleeve type Regular fit Solid pattern dress",10,"images/clothes-page/Women-clothes/Frocks/f3.jpg"),(
+    	"wf005","Normal Frock",2600.00,"Lightweight and perfect fit, easy to wash, Super Soft and comfortable. All-day comfort Consider it your wardrobe staple for any and every occasion. Material Viscose Sleeve type Regular fit Solid pattern dress",10,"images/clothes-page/Women-clothes/Frocks/f5.jpg"),(
+     	"wf006","Normal Frock",2800.00,"Lightweight and perfect fit, easy to wash, Super Soft and comfortable. All-day comfort Consider it your wardrobe staple for any and every occasion. Material Viscose Sleeve type Regular fit Solid pattern dress",10,"images/clothes-page/Women-clothes/Frocks/f4.jpg"),(
+     	"wf007","Normal Frock",2800.00,"Lightweight and perfect fit, easy to wash, Super Soft and comfortable. All-day comfort Consider it your wardrobe staple for any and every occasion. Material Viscose Sleeve type Regular fit Solid pattern dress",10,"images/clothes-page/Women-clothes/Frocks/f6.jpg"),(
+     	"wf008","Normal Frock",2600.00,"Lightweight and perfect fit, easy to wash, Super Soft and comfortable. All-day comfort Consider it your wardrobe staple for any and every occasion. Material Viscose Sleeve type Regular fit Solid pattern dress",10,"images/clothes-page/Women-clothes/Frocks/f7.jpg"),(
+     	"wf009","Normal Frock",2600.00,"Lightweight and perfect fit, easy to wash, Super Soft and comfortable. All-day comfort Consider it your wardrobe staple for any and every occasion. Material Viscose Sleeve type Regular fit Solid pattern dress",10,"images/clothes-page/Women-clothes/Frocks/f8.jpg"),(
+     	"wf010","Normal Frock",2600.00,"Lightweight and perfect fit, easy to wash, Super Soft and comfortable. All-day comfort Consider it your wardrobe staple for any and every occasion. Material Viscose Sleeve type Regular fit Solid pattern dress",10,"images/clothes-page/Women-clothes/Frocks/f9.jpg"),(
+     	"wf011","Normal Frock",2900.00,"Lightweight and perfect fit, easy to wash, Super Soft and comfortable. All-day comfort Consider it your wardrobe staple for any and every occasion. Material Viscose Sleeve type Regular fit Solid pattern dress",10,"images/clothes-page/Women-clothes/Frocks/f10.jpg"),(
+     	"wf012","Normal Frock",2900.00,"Lightweight and perfect fit, easy to wash, Super Soft and comfortable. All-day comfort Consider it your wardrobe staple for any and every occasion. Material Viscose Sleeve type Regular fit Solid pattern dress",10,"images/clothes-page/Women-clothes/Frocks/f11.jpg"),(
+     	"wf013","Normal Frock",2900.00,"Lightweight and perfect fit, easy to wash, Super Soft and comfortable. All-day comfort Consider it your wardrobe staple for any and every occasion. Material Viscose Sleeve type Regular fit Solid pattern dress",10,"images/clothes-page/Women-clothes/Frocks/f12.jpg"),(
+     	"wf014","Normal Frock",2900.00,"Lightweight and perfect fit, easy to wash, Super Soft and comfortable. All-day comfort Consider it your wardrobe staple for any and every occasion. Material Viscose Sleeve type Regular fit Solid pattern dress",10,"images/clothes-page/Women-clothes/Frocks/f13.jpg"),(
+     	"wf015","Normal Frock",2900.00,"Lightweight and perfect fit, easy to wash, Super Soft and comfortable. All-day comfort Consider it your wardrobe staple for any and every occasion. Material Viscose Sleeve type Regular fit Solid pattern dress",10,"images/clothes-page/Women-clothes/Frocks/f14.jpg"),(
+     	"wf016","Normal Frock",2900.00,"Lightweight and perfect fit, easy to wash, Super Soft and comfortable. All-day comfort Consider it your wardrobe staple for any and every occasion. Material Viscose Sleeve type Regular fit Solid pattern dress",10,"images/clothes-page/Women-clothes/Frocks/f16.jpg"),(
+     	"wf017","Normal Frock",2900.00,"Lightweight and perfect fit, easy to wash, Super Soft and comfortable. All-day comfort Consider it your wardrobe staple for any and every occasion. Material Viscose Sleeve type Regular fit Solid pattern dress",10,"images/clothes-page/Women-clothes/Frocks/f17.jpg"),(
+     	"wf018","Normal Frock",2900.00,"Lightweight and perfect fit, easy to wash, Super Soft and comfortable. All-day comfort Consider it your wardrobe staple for any and every occasion. Material Viscose Sleeve type Regular fit Solid pattern dress",10,"images/clothes-page/Women-clothes/Frocks/f18.jpg"),(
+     	"wf019","Normal Frock",2900.00,"Lightweight and perfect fit, easy to wash, Super Soft and comfortable. All-day comfort Consider it your wardrobe staple for any and every occasion. Material Viscose Sleeve type Regular fit Solid pattern dress",10,"images/clothes-page/Women-clothes/Frocks/f19.jpg"),(
+     	"wf020","Normal Frock",2900.00,"Lightweight and perfect fit, easy to wash, Super Soft and comfortable. All-day comfort Consider it your wardrobe staple for any and every occasion. Material Viscose Sleeve type Regular fit Solid pattern dress",10,"images/clothes-page/Women-clothes/Frocks/f20.jpg"
+   );
+
+
+
