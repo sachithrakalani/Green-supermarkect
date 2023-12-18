@@ -20,16 +20,15 @@
                 <div id="navbar"> 
                     <ul>
                         <li><a href="index.jsp">Home</a></li>
-                        <li><a class="active" href="womenclothes.jsp">Clothes</a>
+                        <li><a class="active" href="#">Clothes</a>
                             <div class="sub-menu-1">
                                 <ul>
-                                    <li class="hover-me"><a href="#">Women</a><i class="fa fa-angle-right"></i>
+                                    <li class="hover-me"><a href="womenclothes1.jsp">Women</a><i class="fa fa-angle-right"></i>
                                         <div class="sub-menu-2">
                                             <ul>
-                                                <li><a href="Wcloth.jsp">All Deress</a></li>
+                                                <li><a href="womenclothesfrock.jsp">Frocks</a></li>
                                                 <li><a href="womenclothestshirt.jsp">T shirts</a></li>
                                                 <li><a href="womenclothesblouse.jsp">Blouse</a></li>
-                                                <li><a href="womenclothesfrock.jsp">Frocks</a></li>
                                                 <li><a href="womenclothessaree.jsp">Saree</a></li>
                                                 <li><a href="womenclothesdenims.jsp">Denims</a></li>
                                             </ul>  
@@ -39,10 +38,7 @@
                                     <li class="hover-me"><a href="#">Men</a><i class="fa fa-angle-right"></i>
                                         <div class="sub-menu-2">
                                             <ul>
-                                                <!--<li><a href="#">All Deress</a></li>-->
                                                 <li><a href="mentshirt.jsp">T shirts</a></li>
-                                                <!--<li><a href="#">Formal Shirt</a></li>-->
-                                                <!--<li><a href="#">Trousers</a></li>-->
                                                 <li><a href="mendenims.jsp">Denims</a></li>
                                              </ul>  
                                         </div>

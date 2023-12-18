@@ -20,16 +20,15 @@
                 <div id="navbar"> 
                     <ul>
                         <li><a href="index.jsp">Home</a></li>
-                        <li><a class="active" href="womenclothes.jsp">Clothes</a>
+                        <li><a class="active" href="#">Clothes</a>
                             <div class="sub-menu-1">
                                 <ul>
-                                    <li class="hover-me"><a href="#">Women</a><i class="fa fa-angle-right"></i>
+                                    <li class="hover-me"><a href="womenclothes1.jsp">Women</a><i class="fa fa-angle-right"></i>
                                         <div class="sub-menu-2">
                                             <ul>
-                                                <li><a href="Wcloth.jsp">All Deress</a></li>
+                                                <li><a href="womenclothesfrock.jsp">Frocks</a></li>
                                                 <li><a href="womenclothestshirt.jsp">T shirts</a></li>
                                                 <li><a href="womenclothesblouse.jsp">Blouse</a></li>
-                                                <li><a href="womenclothesfrock.jsp">Frocks</a></li>
                                                 <li><a href="womenclothessaree.jsp">Saree</a></li>
                                                 <li><a href="womenclothesdenims.jsp">Denims</a></li>
                                             </ul>  
@@ -39,10 +38,7 @@
                                     <li class="hover-me"><a href="#">Men</a><i class="fa fa-angle-right"></i>
                                         <div class="sub-menu-2">
                                             <ul>
-                                                <!--<li><a href="#">All Deress</a></li>-->
                                                 <li><a href="mentshirt.jsp">T shirts</a></li>
-                                                <!--<li><a href="#">Formal Shirt</a></li>-->
-                                                <!--<li><a href="#">Trousers</a></li>-->
                                                 <li><a href="mendenims.jsp">Denims</a></li>
                                              </ul>  
                                         </div>
@@ -230,7 +226,7 @@
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/clothes-page/Women clothes/Kids/k18.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
+                    <img src="images/clothes-page/Kids/k18.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
                     <div class="des">
                         <!--<span>adidas</span>-->
                         <h5>Party Frock</h5>
@@ -257,12 +253,6 @@
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>               
         </section>
-        
-<!--        <section id="pagination" class="section-p1">
-            <a href="Wcloth1.jsp">1</a>
-            <a href="#">2</a>
-            <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
-        </section>-->
         
         <footer class="section-p1">
             <div class="col">

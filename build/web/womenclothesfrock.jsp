@@ -21,13 +21,12 @@
                 <div id="navbar"> 
                     <ul>
                         <li><a href="index.jsp">Home</a></li>
-                        <li><a class="active" href="womenclothes.jsp">Clothes</a>
+                        <li><a class="active" href="#">Clothes</a>
                             <div class="sub-menu-1">
                                 <ul>
-                                    <li class="hover-me"><a href="#">Women</a><i class="fa fa-angle-right"></i>
+                                    <li class="hover-me"><a href="womenclothes1.jsp">Women</a><i class="fa fa-angle-right"></i>
                                         <div class="sub-menu-2">
                                             <ul>
-                                                <li><a href="Wcloth.jsp">All Deress</a></li>
                                                 <li><a href="womenclothestshirt.jsp">T shirts</a></li>
                                                 <li><a href="womenclothesblouse.jsp">Blouse</a></li>
                                                 <li><a href="womenclothesfrock.jsp">Frocks</a></li>
@@ -40,10 +39,7 @@
                                     <li class="hover-me"><a href="#">Men</a><i class="fa fa-angle-right"></i>
                                         <div class="sub-menu-2">
                                             <ul>
-                                                <!--<li><a href="#">All Deress</a></li>-->
                                                 <li><a href="mentshirt.jsp">T shirts</a></li>
-                                                <!--<li><a href="#">Formal Shirt</a></li>-->
-                                                <!--<li><a href="#">Trousers</a></li>-->
                                                 <li><a href="mendenims.jsp">Denims</a></li>
                                              </ul>  
                                         </div>
@@ -81,6 +77,15 @@
         <section id="product1" class="section-p1"style="padding:40px 80px">
             <div class="pro-container">
                 <div class="pro">
+                    <img src="images/clothes-page/Women clothes/Frocks/f21.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
+                    <div class="des">
+                        <!--<span>adidas</span>-->
+                        <h5>Party Frock</h5>
+                        <h4>LKR 5,000.00</h4>
+                    </div>
+                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
                     <img src="images/clothes-page/Women clothes/Frocks/f1.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
                     <div class="des">
                         <!--<span>adidas</span>-->
@@ -108,7 +113,7 @@
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/clothes-page/Women clothes/Frocks/f4.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
+                    <img src="images/clothes-page/Women clothes/Frocks/f5.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
                     <div class="des">
                         <!--<span>adidas</span>-->
                         <h5>Party Frock</h5>
@@ -117,7 +122,7 @@
                     <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
                 </div>
                 <div class="pro">
-                    <img src="images/clothes-page/Women clothes/Frocks/f5.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
+                    <img src="images/clothes-page/Women clothes/Frocks/f4.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
                     <div class="des">
                         <!--<span>adidas</span>-->
                         <h5>Party Frock</h5>
@@ -199,15 +204,6 @@
                 </div>
                 <div class="pro">
                     <img src="images/clothes-page/Women clothes/Frocks/f14.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
-                    <div class="des">
-                        <!--<span>adidas</span>-->
-                        <h5>Party Frock</h5>
-                        <h4>LKR 5,000.00</h4>
-                    </div>
-                    <a href="#"><i class="fa fa-shopping-cart cart"></i></a>
-                </div>
-                <div class="pro">
-                    <img src="images/clothes-page/Women clothes/Frocks/f15.jpg" alt=""id="img" style=" width: 150px; height: 175px;"><a href="Wcloth1.jsp"></a>
                     <div class="des">
                         <!--<span>adidas</span>-->
                         <h5>Party Frock</h5>
