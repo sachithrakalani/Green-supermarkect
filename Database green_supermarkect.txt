@@ -155,4 +155,31 @@ Query OK, 20 rows affected, 20 warnings (0.060 sec)
 
 
 
+ insert into clothes_details(
+    -> clothes_id,clothes_name,prices,item_des,qty,image_path,clothes_category)values(
+    -> "wd001","Ladies Denim",4500.00,"Style: Ladies denim wear.Pattern Type: Plain.Length: Full Length.Type: Denim Pant.Fit Type: Regular Fit.Material: Denim.Care Instructions: washing machine wash",5,"images/clothes-page/Women-clothes/Denims/d1.jpg",5);
+
+insert into clothes_details(
+    -> clothes_id,clothes_name,prices,item_des,qty,image_path,clothes_category)values(
+    -> "wd002","Ladies Denim",4500.00,"Style: Ladies denim wear.Pattern Type: Plain.Length: Full Length.Type: Denim Pant.Fit Type: Regular Fit.Material: Denim.Care Instructions: washing machine wash",5,"images/clothes-page/Women-clothes/Denims/d2.jpg",5),(
+    -> "wd003","Ladies Denim",4500.00,"Style: Ladies denim wear.Pattern Type: Plain.Length: Full Length.Type: Denim Pant.Fit Type: Regular Fit.Material: Denim.Care Instructions: washing machine wash",5,"images/clothes-page/Women-clothes/Denims/d3.jpg",5),(
+    -> "wd004","Ladies Denim",4500.00,"Style: Ladies denim wear.Pattern Type: Plain.Length: Full Length.Type: Denim Pant.Fit Type: Regular Fit.Material: Denim.Care Instructions: washing machine wash",5,"images/clothes-page/Women-clothes/Denims/d4.jpg",5),(
+    -> "wd005","Ladies Denim",4500.00,"Style: Ladies denim wear.Pattern Type: Plain.Length: Full Length.Type: Denim Pant.Fit Type: Regular Fit.Material: Denim.Care Instructions: washing machine wash",5,"images/clothes-page/Women-clothes/Denims/d5.jpg",5),(
+    -> "wd006","Ladies Denim",4500.00,"Style: Ladies denim wear.Pattern Type: Plain.Length: Full Length.Type: Denim Pant.Fit Type: Regular Fit.Material: Denim.Care Instructions: washing machine wash",5,"images/clothes-page/Women-clothes/Denims/d6.jpg",5),(
+    -> "wd008","Ladies Denim",4500.00,"Style: Ladies denim wear.Pattern Type: Plain.Length: Full Length.Type: Denim Pant.Fit Type: Regular Fit.Material: Denim.Care Instructions: washing machine wash",5,"images/clothes-page/Women-clothes/Denims/d7.jpg",5),(
+    -> "wd007","Ladies Denim",4500.00,"Style: Ladies denim wear.Pattern Type: Plain.Length: Full Length.Type: Denim Pant.Fit Type: Regular Fit.Material: Denim.Care Instructions: washing machine wash",5,"images/clothes-page/Women-clothes/Denims/d8.jpg",5),(
+    -> "wd009","Ladies Denim",4500.00,"Style: Ladies denim wear.Pattern Type: Plain.Length: Full Length.Type: Denim Pant.Fit Type: Regular Fit.Material: Denim.Care Instructions: washing machine wash",5,"images/clothes-page/Women-clothes/Denims/d9.jpg",5),(
+    -> "wd010","Ladies Denim",4500.00,"Style: Ladies denim wear.Pattern Type: Plain.Length: Full Length.Type: Denim Pant.Fit Type: Regular Fit.Material: Denim.Care Instructions: washing machine wash",5,"images/clothes-page/Women-clothes/Denims/d10.jpg",5),(
+    -> "wd011","Ladies Denim",4500.00,"Style: Ladies denim wear.Pattern Type: Plain.Length: Full Length.Type: Denim Pant.Fit Type: Regular Fit.Material: Denim.Care Instructions: washing machine wash",5,"images/clothes-page/Women-clothes/Denims/d11.jpg",5),(
+    -> "wd012","Ladies Denim",4500.00,"Style: Ladies denim wear.Pattern Type: Plain.Length: Full Length.Type: Denim Pant.Fit Type: Regular Fit.Material: Denim.Care Instructions: washing machine wash",5,"images/clothes-page/Women-clothes/Denims/d12.jpg",5),(
+    -> "wd013","Ladies Denim",4500.00,"Style: Ladies denim wear.Pattern Type: Plain.Length: Full Length.Type: Denim Pant.Fit Type: Regular Fit.Material: Denim.Care Instructions: washing machine wash",5,"images/clothes-page/Women-clothes/Denims/d13.jpg",5),(
+    -> "wd014","Ladies Denim",4500.00,"Style: Ladies denim wear.Pattern Type: Plain.Length: Full Length.Type: Denim Pant.Fit Type: Regular Fit.Material: Denim.Care Instructions: washing machine wash",5,"images/clothes-page/Women-clothes/Denims/d14.jpg",5),(
+    -> "wd015","Ladies Denim",4500.00,"Style: Ladies denim wear.Pattern Type: Plain.Length: Full Length.Type: Denim Pant.Fit Type: Regular Fit.Material: Denim.Care Instructions: washing machine wash",5,"images/clothes-page/Women-clothes/Denims/d15.jpg",5),(
+    -> "wd016","Ladies Denim",5000.00,"Style: Ladies denim wear.Pattern Type: Plain.Length: Full Length.Type: Denim Pant.Fit Type: Regular Fit.Material: Denim.Care Instructions: washing machine wash",5,"images/clothes-page/Women-clothes/Denims/d16.jpg",5),(
+    -> "wd017","Ladies Denim",5000.00,"Style: Ladies denim wear.Pattern Type: Plain.Length: Full Length.Type: Denim Pant.Fit Type: Regular Fit.Material: Denim.Care Instructions: washing machine wash",5,"images/clothes-page/Women-clothes/Denims/d17.jpg",5),(
+    -> "wd018","Ladies Denim",5000.00,"Style: Ladies denim wear.Pattern Type: Plain.Length: Full Length.Type: Denim Pant.Fit Type: Regular Fit.Material: Denim.Care Instructions: washing machine wash",5,"images/clothes-page/Women-clothes/Denims/d18.jpg",5),(
+    -> "wd019","Ladies Denim",5000.00,"Style: Ladies denim wear.Pattern Type: Plain.Length: Full Length.Type: Denim Pant.Fit Type: Regular Fit.Material: Denim.Care Instructions: washing machine wash",5,"images/clothes-page/Women-clothes/Denims/d19.jpg",5),(
+    -> "wd020","Ladies Denim",5000.00,"Style: Ladies denim wear.Pattern Type: Plain.Length: Full Length.Type: Denim Pant.Fit Type: Regular Fit.Material: Denim.Care Instructions: washing machine wash",5,"images/clothes-page/Women-clothes/Denims/d20.jpg",5);
+Query OK, 19 rows affected (0.008 sec)
+
 
