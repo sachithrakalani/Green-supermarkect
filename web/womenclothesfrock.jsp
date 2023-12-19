@@ -156,7 +156,6 @@
         <script>
             function redirectToItemDetails(itemId) {
                 window.location.href = 'singleproduct.jsp?id=' + itemId;
-//                console.log(itemID);
             }
         </script>
     </body>

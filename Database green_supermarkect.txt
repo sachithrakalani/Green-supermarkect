@@ -75,8 +75,8 @@ Query OK, 11 rows affected
      "wt020","Normal T shirt",1900.00,"A low-key style we high-key love, The Oversized T-shirt is a must-have in every wardrobe. Featuring a loose and baggy fit perfect for off-duty days.",5,"images/clothes-page/Women-clothes/T-shirt/t18.jpg",2),(
      "wt021","Normal T shirt",2000.00,"A low-key style we high-key love, The Oversized T-shirt is a must-have in every wardrobe. Featuring a loose and baggy fit perfect for off-duty days.",5,"images/clothes-page/Women-clothes/T-shirt/t19.jpg",2
      );
-Query OK, 11 rows affected (0.010 sec)
-Records: 11  Duplicates: 0  Warnings: 0
+Query OK, 11 rows affected 
+
 
 MariaDB [green_supermarkect]> insert into clothes_details(
     -> clothes_id,clothes_name,prices,item_des,qty,image_path,clothes_category)values(
@@ -100,6 +100,33 @@ MariaDB [green_supermarkect]> insert into clothes_details(
      "wt039","Normal T shirt",2000.00,"A low-key style we high-key love, The Oversized T-shirt is a must-have in every wardrobe. Featuring a loose and baggy fit perfect for off-duty days.",5,"images/clothes-page/Women-clothes/T-shirt/tshirt19.jpg",2),(
      "wt040","Normal T shirt",2000.00,"A low-key style we high-key love, The Oversized T-shirt is a must-have in every wardrobe. Featuring a loose and baggy fit perfect for off-duty days.",5,"images/clothes-page/Women-clothes/T-shirt/tshirt20.jpg",2
      );
+
+
+ insert into clothes_details(
+    -> clothes_id,clothes_name,prices,item_des,qty,image_path,clothes_category)values(
+    -> "wb001","Blouse",1700.00,"A low-key style we high-key love, The Oversized T-shirt is a must-have in every wardrobe. Featuring a loose and baggy fit perfect for off-duty days.",5,"images/clothes-page/Women-clothes/Blouse/b1.jpg",3),(
+    -> "wb002","Blouse",1700.00,"A low-key style we high-key love, The Oversized T-shirt is a must-have in every wardrobe. Featuring a loose and baggy fit perfect for off-duty days.",5,"images/clothes-page/Women-clothes/Blouse/b2.jpg",3),(
+    -> "wb003","Blouse",1700.00,"A low-key style we high-key love, The Oversized T-shirt is a must-have in every wardrobe. Featuring a loose and baggy fit perfect for off-duty days.",5,"images/clothes-page/Women-clothes/Blouse/b3.jpg",3),(
+    -> "wb004","Blouse",1700.00,"A low-key style we high-key love, The Oversized T-shirt is a must-have in every wardrobe. Featuring a loose and baggy fit perfect for off-duty days.",5,"images/clothes-page/Women-clothes/Blouse/b4.jpg",3),(
+    -> "wb005","Blouse",1700.00,"A low-key style we high-key love, The Oversized T-shirt is a must-have in every wardrobe. Featuring a loose and baggy fit perfect for off-duty days.",5,"images/clothes-page/Women-clothes/Blouse/b5.jpg",3),(
+    -> "wb006","Blouse",2000.00,"A low-key style we high-key love, The Oversized T-shirt is a must-have in every wardrobe. Featuring a loose and baggy fit perfect for off-duty days.",5,"images/clothes-page/Women-clothes/Blouse/b6.jpg",3),(
+    -> "wb007","Blouse",2000.00,"A low-key style we high-key love, The Oversized T-shirt is a must-have in every wardrobe. Featuring a loose and baggy fit perfect for off-duty days.",5,"images/clothes-page/Women-clothes/Blouse/b7.jpg",3),(
+    -> "wb008","Blouse",2000.00,"A low-key style we high-key love, The Oversized T-shirt is a must-have in every wardrobe. Featuring a loose and baggy fit perfect for off-duty days.",5,"images/clothes-page/Women-clothes/Blouse/b8.jpg",3),(
+    -> "wb009","Blouse",2000.00,"A low-key style we high-key love, The Oversized T-shirt is a must-have in every wardrobe. Featuring a loose and baggy fit perfect for off-duty days.",5,"images/clothes-page/Women-clothes/Blouse/b9.jpg",3),(
+    -> "wb010","Blouse",2000.00,"A low-key style we high-key love, The Oversized T-shirt is a must-have in every wardrobe. Featuring a loose and baggy fit perfect for off-duty days.",5,"images/clothes-page/Women-clothes/Blouse/b10.jpg",3),(
+    -> "wb011","Blouse",2300.00,"A low-key style we high-key love, The Oversized T-shirt is a must-have in every wardrobe. Featuring a loose and baggy fit perfect for off-duty days.",5,"images/clothes-page/Women-clothes/Blouse/b11.jpg",3),(
+    -> "wb012","Blouse",2300.00,"A low-key style we high-key love, The Oversized T-shirt is a must-have in every wardrobe. Featuring a loose and baggy fit perfect for off-duty days.",5,"images/clothes-page/Women-clothes/Blouse/b12.jpg",3),(
+    -> "wb013","Blouse",2300.00,"A low-key style we high-key love, The Oversized T-shirt is a must-have in every wardrobe. Featuring a loose and baggy fit perfect for off-duty days.",5,"images/clothes-page/Women-clothes/Blouse/b13.jpg",3),(
+    -> "wb014","Blouse",2300.00,"A low-key style we high-key love, The Oversized T-shirt is a must-have in every wardrobe. Featuring a loose and baggy fit perfect for off-duty days.",5,"images/clothes-page/Women-clothes/Blouse/b14.jpg",3),(
+    -> "wb015","Blouse",2300.00,"A low-key style we high-key love, The Oversized T-shirt is a must-have in every wardrobe. Featuring a loose and baggy fit perfect for off-duty days.",5,"images/clothes-page/Women-clothes/Blouse/b15.jpg",3),(
+    -> "wb016","Blouse",2800.00,"A low-key style we high-key love, The Oversized T-shirt is a must-have in every wardrobe. Featuring a loose and baggy fit perfect for off-duty days.",5,"images/clothes-page/Women-clothes/Blouse/b16.jpg",3),(
+    -> "wb017","Blouse",2800.00,"A low-key style we high-key love, The Oversized T-shirt is a must-have in every wardrobe. Featuring a loose and baggy fit perfect for off-duty days.",5,"images/clothes-page/Women-clothes/Blouse/b17.jpg",3),(
+    -> "wb018","Blouse",2800.00,"A low-key style we high-key love, The Oversized T-shirt is a must-have in every wardrobe. Featuring a loose and baggy fit perfect for off-duty days.",5,"images/clothes-page/Women-clothes/Blouse/b18.jpg",3),(
+    -> "wb019","Blouse",2800.00,"A low-key style we high-key love, The Oversized T-shirt is a must-have in every wardrobe. Featuring a loose and baggy fit perfect for off-duty days.",5,"images/clothes-page/Women-clothes/Blouse/b19.jpg",3),(
+    -> "wb020","Blouse",2800.00,"A low-key style we high-key love, The Oversized T-shirt is a must-have in every wardrobe. Featuring a loose and baggy fit perfect for off-duty days.",5,"images/clothes-page/Women-clothes/Blouse/b20.jpg",3);
+
+Query OK, 11 rows affected 
+
 
 
 
