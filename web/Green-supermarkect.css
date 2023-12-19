@@ -626,7 +626,7 @@ footer .copyright{
      margin-top: 50px;
  }
  #prodetails .single-pro-image{
-     width: 40%;
+     /*width: 40%;*/
      /*border:1px solid red;*/
  }
  #prodetails .single-pro-details{
@@ -635,12 +635,12 @@ footer .copyright{
      /*border:1px solid blue;*/
  }
  #prodetails .single-pro-details input{
-     width: 25px;
-     height:30px;
+     width: 40px;
+     height:40px;
      padding-left: 10px;
      font-size: 16px;
      margin-right: 10px;
-     border:1px solid black;
+     border:2px solid black;
      border-radius: 3px;
  }
  .single-pro-details #normal{

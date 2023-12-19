@@ -3,7 +3,10 @@
     Created on : Dec 17, 2023, 10:35:12 PM
     Author     : SKS
 --%>
-
+<%@page import="java.util.List"%>
+<%@page import="java.util.ArrayList"%>
+<%@page import="java.sql.*"%>
+<%@page import="java.sql.Statement"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -29,7 +32,7 @@
                                         <div class="sub-menu-2">
                                             <ul>
                                                 <li><a href="womenclothesfrock.jsp">Frocks</a></li>
-                                                <li><a href="womenclothestshirt.jsp">T shirts</a></li>
+                                                <li><a href="womenclothestshirt.jsp">T-shirts</a></li>
                                                 <li><a href="womenclothesblouse.jsp">Blouse</a></li>
                                                 <li><a href="womenclothessaree.jsp">Saree</a></li>
                                                 <li><a href="womenclothesdenims.jsp">Denims</a></li>
@@ -40,7 +43,7 @@
                                     <li class="hover-me"><a href="#">Men</a><i class="fa fa-angle-right"></i>
                                         <div class="sub-menu-2">
                                             <ul>
-                                                <li><a href="mentshirt.jsp">T shirts</a></li>
+                                                <li><a href="mentshirt.jsp">T-shirts</a></li>
                                                 <li><a href="mendenims.jsp">Denims</a></li>
                                              </ul>  
                                         </div>

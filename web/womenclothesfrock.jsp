@@ -30,9 +30,9 @@
                                     <li class="hover-me"><a href="womenclothes1.jsp">Women</a><i class="fa fa-angle-right"></i>
                                         <div class="sub-menu-2">
                                             <ul>
-                                                <li><a href="womenclothestshirt.jsp">T shirts</a></li>
-                                                <li><a href="womenclothesblouse.jsp">Blouse</a></li>
                                                 <li><a href="womenclothesfrock.jsp">Frocks</a></li>
+                                                <li><a href="womenclothestshirt.jsp">T-shirts</a></li>
+                                                <li><a href="womenclothesblouse.jsp">Blouse</a></li>
                                                 <li><a href="womenclothessaree.jsp">Saree</a></li>
                                                 <li><a href="womenclothesdenims.jsp">Denims</a></li>
                                             </ul>  
@@ -42,7 +42,7 @@
                                     <li class="hover-me"><a href="#">Men</a><i class="fa fa-angle-right"></i>
                                         <div class="sub-menu-2">
                                             <ul>
-                                                <li><a href="mentshirt.jsp">T shirts</a></li>
+                                                <li><a href="mentshirt.jsp">T-shirts</a></li>
                                                 <li><a href="mendenims.jsp">Denims</a></li>
                                              </ul>  
                                         </div>
@@ -68,7 +68,6 @@
                         <li><a href="signUp.jsp"><i class="fa fa-user-circle" aria-hidden="true"></i></a></li>
                     </ul>
                 </div>
-                
             </div>
         </section>
         
@@ -83,19 +82,20 @@
                         Class.forName("com.mysql.jdbc.Driver");
                         Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/green_supermarkect", "root", "");
                         Statement st = con.createStatement();
-                        String str = "select clothes_id, clothes_name, prices, image_path from clothes_details order by clothes_id;";
+                        String str = "select clothes_id, clothes_name, prices, image_path from clothes_details where clothes_category = 1";
                         ResultSet rs = st.executeQuery(str);
                         while (rs.next()) {
                             String itemName = rs.getString("clothes_name");
                             int itemPrice = rs.getInt("prices");
                             String imagePath = rs.getString("image_path");
                             String itemId = rs.getString("clothes_id");
+                            //out.println(itemId);
                             //out.println(imagePath+"<br>");
                             //String itemDescription = rs.getString("Iteam_description");
                             out.println("<section id='product1' class='section-p1' >");
                             out.println("<div class='pro-container'>");
                             out.println("<div class='pro'>");
-                            out.println("<img src=" + imagePath + " alt=''id='img' style='width: 150px; height: 175px;' <a href='#' onclick='redirectToItemDetails(" + itemId + ")' alt=''></a>");
+                            out.println("<img src=" + imagePath + " alt=''id='img' style='width: 150px; height: 175px;' <a href='#' onclick=\"" + "redirectToItemDetails('" + itemId + "')" + "\"alt=''></a>");
                             out.println("<div class='des'>");
 //                            out.println("<span>adidas</span>");
                             out.println("<div class='star'>");
@@ -155,7 +155,8 @@
         
         <script>
             function redirectToItemDetails(itemId) {
-                window.location.href = 'singleclothes.jsp?id=' + itemId;
+                window.location.href = 'singleproduct.jsp?id=' + itemId;
+//                console.log(itemID);
             }
         </script>
     </body>
