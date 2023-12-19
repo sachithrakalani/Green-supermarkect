@@ -108,7 +108,7 @@
                             //onclick='redirectToItemDetails(1)'
                             //onclick='redirectToItemDetails('+itemId+')'
                             out.println(itemName + "</a> <br>");
-                            out.println("LKR: " + itemPrice + "<br>");
+                            out.println("LKR: " + itemPrice + ".00 <br>");
                             out.println("</div>");
                             out.println("<a href='#'><i class='fa fa-shopping-cart cart'></i></a>");
                             out.println("<html></div></div></section></html>");

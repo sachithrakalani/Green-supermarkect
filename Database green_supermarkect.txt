@@ -226,3 +226,34 @@ MariaDB [green_supermarkect]> insert into clothes_details(
 Query OK, 10 rows affected (0.008 sec)
 
 
+insert into clothes_details(
+    -> clothes_id,clothes_name,prices,item_des,qty,image_path,clothes_category)values(
+    -> "k001","Kids clothes",1500.00,"",5,"images/clothes-page/Kids/k1.jpg",16);
+
+ insert into clothes_details(
+    -> clothes_id,clothes_name,prices,item_des,qty,image_path,clothes_category)values(
+    -> "k002","Kids clothes",1500.00,"",5,"images/clothes-page/Kids/k2.jpg",16);
+
+insert into clothes_details(
+    -> clothes_id,clothes_name,prices,item_des,qty,image_path,clothes_category)values(
+    -> "k003","Kids clothes",1500.00,"",5,"images/clothes-page/Kids/k3.jpg",16),(
+    -> "k004","Kids clothes",1500.00,"",5,"images/clothes-page/Kids/k4.jpg",16),(
+    -> "k005","Kids clothes",1500.00,"",5,"images/clothes-page/Kids/k5.jpg",16),(
+    -> "k006","Kids clothes",1500.00,"",5,"images/clothes-page/Kids/k6.jpg",16),(
+    -> "k007","Kids clothes",1500.00,"",5,"images/clothes-page/Kids/k7.jpg",16),(
+    -> "k008","Kids clothes",1500.00,"",5,"images/clothes-page/Kids/k8.jpg",16),(
+    -> "k009","Kids clothes",1500.00,"",5,"images/clothes-page/Kids/k9.jpg",16),(
+    -> "k010","Kids clothes",1500.00,"",5,"images/clothes-page/Kids/k10.jpg",16),(
+    -> "k011","Kids clothes",1500.00,"",5,"images/clothes-page/Kids/k11.jpg",16),(
+    -> "k012","Kids clothes",1500.00,"",5,"images/clothes-page/Kids/k12.jpg",16),(
+    -> "k013","Kids clothes",1500.00,"",5,"images/clothes-page/Kids/k13.jpg",16),(
+    -> "k014","Kids clothes",1500.00,"",5,"images/clothes-page/Kids/k14.jpg",16),(
+    -> "k015","Kids clothes",1500.00,"",5,"images/clothes-page/Kids/k15.jpg",16),(
+    -> "k016","Kids clothes",1500.00,"",5,"images/clothes-page/Kids/k16.jpg",16),(
+    -> "k017","Kids clothes",1500.00,"",5,"images/clothes-page/Kids/k17.jpg",16),(
+    -> "k018","Kids clothes",1500.00,"",5,"images/clothes-page/Kids/k18.jpg",16),(
+    -> "k019","Kids clothes",1500.00,"",5,"images/clothes-page/Kids/k19.jpg",16),(
+    -> "k020","Kids clothes",1500.00,"",5,"images/clothes-page/Kids/k20.jpg",16);
+Query OK, 18 rows affected (0.007 sec)
+
+
