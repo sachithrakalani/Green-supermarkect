@@ -183,3 +183,46 @@ insert into clothes_details(
 Query OK, 19 rows affected (0.008 sec)
 
 
+
+MariaDB [green_supermarkect]> insert into clothes_details(
+    -> clothes_id,clothes_name,prices,item_des,qty,image_path,clothes_category)values(
+    -> "mt001","T-shirt",2300.00,"Super combed Cotton Rich fabric. Ribbed round neck to prevent sagging. Regular fit. Label free for all day comfort. Special Feature:  Super Combed Cotton",5,"images/clothes-page/Men/T-shirt/t1.jpg",11),(
+    -> "mt002","T-shirt",2300.00,"Super combed Cotton Rich fabric. Ribbed round neck to prevent sagging. Regular fit. Label free for all day comfort. Special Feature:  Super Combed Cotton",5,"images/clothes-page/Men/T-shirt/t2.jpg",11),(
+    -> "mt003","T-shirt",2300.00,"Super combed Cotton Rich fabric. Ribbed round neck to prevent sagging. Regular fit. Label free for all day comfort. Special Feature:  Super Combed Cotton",5,"images/clothes-page/Men/T-shirt/t3.jpg",11),(
+    -> "mt004","T-shirt",2300.00,"Super combed Cotton Rich fabric. Ribbed round neck to prevent sagging. Regular fit. Label free for all day comfort. Special Feature:  Super Combed Cotton",5,"images/clothes-page/Men/T-shirt/t4.jpg",11),(
+    -> "mt005","T-shirt",2300.00,"Super combed Cotton Rich fabric. Ribbed round neck to prevent sagging. Regular fit. Label free for all day comfort. Special Feature:  Super Combed Cotton",5,"images/clothes-page/Men/T-shirt/t5.jpg",11),(
+    ->
+    -> "mt006","T-shirt",2300.00,"Super combed Cotton Rich fabric. Ribbed round neck to prevent sagging. Regular fit. Label free for all day comfort. Special Feature:  Super Combed Cotton",5,"images/clothes-page/Men/T-shirt/t6.jpg",11),(
+    -> "mt007","T-shirt",2300.00,"Super combed Cotton Rich fabric. Ribbed round neck to prevent sagging. Regular fit. Label free for all day comfort. Special Feature:  Super Combed Cotton",5,"images/clothes-page/Men/T-shirt/t7.jpg",11),(
+    -> "mt008","T-shirt",2300.00,"Super combed Cotton Rich fabric. Ribbed round neck to prevent sagging. Regular fit. Label free for all day comfort. Special Feature:  Super Combed Cotton",5,"images/clothes-page/Men/T-shirt/t8.jpg",11),(
+    -> "mt009","T-shirt",2300.00,"Super combed Cotton Rich fabric. Ribbed round neck to prevent sagging. Regular fit. Label free for all day comfort. Special Feature:  Super Combed Cotton",5,"images/clothes-page/Men/T-shirt/t9.jpg",11),(
+    -> "mt010","T-shirt",2300.00,"Super combed Cotton Rich fabric. Ribbed round neck to prevent sagging. Regular fit. Label free for all day comfort. Special Feature:  Super Combed Cotton",5,"images/clothes-page/Men/T-shirt/t10.jpg",11),(
+    -> "mt011","T-shirt",2300.00,"Super combed Cotton Rich fabric. Ribbed round neck to prevent sagging. Regular fit. Label free for all day comfort. Special Feature:  Super Combed Cotton",5,"images/clothes-page/Men/T-shirt/t11.jpg",11),(
+    -> "mt012","T-shirt",2300.00,"Super combed Cotton Rich fabric. Ribbed round neck to prevent sagging. Regular fit. Label free for all day comfort. Special Feature:  Super Combed Cotton",5,"images/clothes-page/Men/T-shirt/t12.jpg",11),(
+    -> "mt013","T-shirt",2300.00,"Super combed Cotton Rich fabric. Ribbed round neck to prevent sagging. Regular fit. Label free for all day comfort. Special Feature:  Super Combed Cotton",5,"images/clothes-page/Men/T-shirt/t13.jpg",11),(
+    -> "mt014","T-shirt",2300.00,"Super combed Cotton Rich fabric. Ribbed round neck to prevent sagging. Regular fit. Label free for all day comfort. Special Feature:  Super Combed Cotton",5,"images/clothes-page/Men/T-shirt/t14.jpg",11),(
+    -> "mt015","T-shirt",2300.00,"Super combed Cotton Rich fabric. Ribbed round neck to prevent sagging. Regular fit. Label free for all day comfort. Special Feature:  Super Combed Cotton",5,"images/clothes-page/Men/T-shirt/t15.jpg",11),(
+    -> "mt016","T-shirt",2300.00,"Super combed Cotton Rich fabric. Ribbed round neck to prevent sagging. Regular fit. Label free for all day comfort. Special Feature:  Super Combed Cotton",5,"images/clothes-page/Men/T-shirt/t16.jpg",11),(
+    -> "mt017","T-shirt",2300.00,"Super combed Cotton Rich fabric. Ribbed round neck to prevent sagging. Regular fit. Label free for all day comfort. Special Feature:  Super Combed Cotton",5,"images/clothes-page/Men/T-shirt/t17.jpg",11),(
+    -> "mt018","T-shirt",2300.00,"Super combed Cotton Rich fabric. Ribbed round neck to prevent sagging. Regular fit. Label free for all day comfort. Special Feature:  Super Combed Cotton",5,"images/clothes-page/Men/T-shirt/t18.jpg",11),(
+    -> "mt019","T-shirt",2300.00,"Super combed Cotton Rich fabric. Ribbed round neck to prevent sagging. Regular fit. Label free for all day comfort. Special Feature:  Super Combed Cotton",5,"images/clothes-page/Men/T-shirt/t19.jpg",11),(
+    -> "mt020","T-shirt",2300.00,"Super combed Cotton Rich fabric. Ribbed round neck to prevent sagging. Regular fit. Label free for all day comfort. Special Feature:  Super Combed Cotton",5,"images/clothes-page/Men/T-shirt/t20.jpg",11);
+Query OK, 20 rows affected (0.056 sec)
+
+
+
+MariaDB [green_supermarkect]> insert into clothes_details(
+    -> clothes_id,clothes_name,prices,item_des,qty,image_path,clothes_category)values(
+    -> "md001","Men Denims",3500.00,"Durable High quality material",5,"images/clothes-page/Men/Denims/d1.jpg",12),(
+    -> "md002","Men Denims",3500.00,"Durable High quality material",5,"images/clothes-page/Men/Denims/d2.jpg",12),(
+    -> "md003","Men Denims",3500.00,"Durable High quality material",5,"images/clothes-page/Men/Denims/d3.jpg",12),(
+    -> "md004","Men Denims",3500.00,"Durable High quality material.",5,"images/clothes-page/Men/Denims/d4.jpg",12),(
+    -> "md005","Men Denims",3500.00,"Durable High quality material",5,"images/clothes-page/Men/Denims/d5.jpg",12),(
+    -> "md006","Men Denims",3500.00,"Durable High quality material",5,"images/clothes-page/Men/Denims/d6.jpg",12),(
+    -> "md007","Men Denims",3500.00,"Durable High quality material",5,"images/clothes-page/Men/Denims/d7.jpg",12),(
+    -> "md008","Men Denims",3500.00,"Durable High quality material",5,"images/clothes-page/Men/Denims/d8.jpg",12),(
+    -> "md009","Men Denims",3500.00,"Durable High quality material",5,"images/clothes-page/Men/Denims/d9.jpg",12),(
+    -> "md010","Men Denims",3500.00,"Durable High quality material",5,"images/clothes-page/Men/Denims/d10.jpg",12);
+Query OK, 10 rows affected (0.008 sec)
+
+
