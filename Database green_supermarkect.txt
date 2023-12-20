@@ -257,3 +257,50 @@ insert into clothes_details(
 Query OK, 18 rows affected (0.007 sec)
 
 
+create table jewelry_details(
+    -> jewelry_id varchar (255),
+    -> jewelry_name varchar (255),
+    -> prices int,
+    -> jewelry_des varchar (255),
+    -> qty int,
+    -> image_path varchar (255),
+    -> jewelry_category int
+    -> );
+Query OK, 0 rows affected (0.013 sec)
+
+
+ insert into jewelry_details(
+    -> jewelry_id,jewelry_name,prices,jewelry_des,qty,image_path,jewelry_category)values(
+    -> "wj001","Jewelry",500.00,"",5,"images/Jewelry-page/j1.jpg",1),(
+    -> "wj002","Jewelry",500.00,"",5,"images/Jewelry-page/j2.jpg",1),(
+    -> "wj003","Jewelry",500.00,"",5,"images/Jewelry-page/j3.jpg",1),(
+    -> "wj004","Jewelry",500.00,"",5,"images/Jewelry-page/j4.jpg",1),(
+    -> "wj005","Jewelry",500.00,"",5,"images/Jewelry-page/j5.jpg",1),(
+    -> "wj006","Jewelry",500.00,"",5,"images/Jewelry-page/j6.jpg",1),(
+    -> "wj007","Jewelry",500.00,"",5,"images/Jewelry-page/j7.jpg",1),(
+    -> "wj008","Jewelry",500.00,"",5,"images/Jewelry-page/j8.jpg",1),(
+    -> "wj009","Jewelry",500.00,"",5,"images/Jewelry-page/j9.jpg",1),(
+    -> "wj010","Jewelry",500.00,"",5,"images/Jewelry-page/j10.jpg",1),(
+    -> "wj011","Jewelry",500.00,"",5,"images/Jewelry-page/j11.jpg",1),(
+    -> "wj012","Jewelry",500.00,"",5,"images/Jewelry-page/j12.jpg",1),(
+    -> "wj013","Jewelry",500.00,"",5,"images/Jewelry-page/j13.jpg",1),(
+    -> "wj014","Jewelry",500.00,"",5,"images/Jewelry-page/j14.jpg",1),(
+    -> "wj015","Jewelry",500.00,"",5,"images/Jewelry-page/j15.jpg",1),(
+    -> "wj016","Jewelry",500.00,"",5,"images/Jewelry-page/j16.jpg",1),(
+    -> "wj017","Jewelry",500.00,"",5,"images/Jewelry-page/j17.jpg",1),(
+    -> "wj018","Jewelry",500.00,"",5,"images/Jewelry-page/j18.jpg",1),(
+    -> "wj019","Jewelry",500.00,"",5,"images/Jewelry-page/j19.jpg",1),(
+    -> "wj020","Jewelry",500.00,"",5,"images/Jewelry-page/j20.jpg",1),(
+    -> "wj021","Jewelry",500.00,"",5,"images/Jewelry-page/j21.jpg",1),(
+    -> "wj022","Jewelry",500.00,"",5,"images/Jewelry-page/j22.jpg",1),(
+    -> "wj023","Jewelry",500.00,"",5,"images/Jewelry-page/j23.jpg",1),(
+    -> "wj024","Jewelry",500.00,"",5,"images/Jewelry-page/j24.jpg",1),(
+    -> "wj025","Jewelry",500.00,"",5,"images/Jewelry-page/j25.jpg",1),(
+    -> "wj026","Jewelry",500.00,"",5,"images/Jewelry-page/j26.jpg",1),(
+    -> "wj027","Jewelry",500.00,"",5,"images/Jewelry-page/j27.jpg",1),(
+    -> "wj028","Jewelry",500.00,"",5,"images/Jewelry-page/j28.jpg",1),(
+    -> "wj029","Jewelry",500.00,"",5,"images/Jewelry-page/j29.jpg",1),(
+    -> "wj030","Jewelry",500.00,"",5,"images/Jewelry-page/j30.jpg",1);
+Query OK, 30 rows affected (0.010 sec)
+
+

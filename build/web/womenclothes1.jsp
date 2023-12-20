@@ -62,7 +62,7 @@
                                 </ul>
                             <div>
                         </li>
-                        <li><a href="#">Cosmetics</a></li>
+                        <li><a href="cosmetics.jsp">Cosmetics</a></li>
                         <li><a href="jewelry.jsp">Jewelry</a></li>
                         <li><a href="cart.jsp"><i class="fa-solid fa-cart-shopping"></i></i></a></li>
                         <li><a href="signUp.jsp"><i class="fa fa-user-circle" aria-hidden="true"></i></a></li>
@@ -83,7 +83,7 @@
                         Class.forName("com.mysql.jdbc.Driver");
                         Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/green_supermarkect", "root", "");
                         Statement st = con.createStatement();
-                        String str = "select clothes_id, clothes_name, prices, image_path from clothes_details order by clothes_id;";
+                        String str = "select clothes_id, clothes_name, prices, image_path from clothes_details where clothes_category = 1";
                         ResultSet rs = st.executeQuery(str);
                         while (rs.next()) {
                             String itemName = rs.getString("clothes_name");
@@ -161,7 +161,7 @@
         
         <script>
             function redirectToItemDetails(itemId) {
-                window.location.href = 'singleproduct.jsp?id=' + itemId;
+                window.location.href = 'singleproductclothes.jsp?id=' + itemId;
             }
         </script>
         

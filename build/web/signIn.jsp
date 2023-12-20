@@ -56,7 +56,7 @@
                                 </ul>
                             <div>
                         </li>
-                        <li><a href="#">Cosmetics</a></li>
+                        <li><a href="cosmetics.jsp">Cosmetics</a></li>
                         <li><a href="jewelry.jsp">Jewelry</a></li>
                         <li><a href="cart.jsp"><i class="fa-solid fa-cart-shopping"></i></i></a></li>
                         <li><a href="signUp.jsp"><i class="fa fa-user-circle" aria-hidden="true"></i></a></li>

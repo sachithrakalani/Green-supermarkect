@@ -1,6 +1,6 @@
 <%-- 
-    Document   : singleproduct.jsp
-    Created on : Dec 18, 2023, 3:52:08 PM
+    Document   : singleproductshoes.jsp
+    Created on : Dec 19, 2023, 11:47:08 PM
     Author     : SKS
 --%>
 <%@page import="java.sql.*"%>
@@ -10,10 +10,9 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Single Product Page</title>
-        <link rel="stylesheet" href="Green-supermarkect.css"> 
+        <title>Single Product Shoes Page</title>
+        <link rel="stylesheet" href="Green-supermarkect.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
     </head>
     <body>
         <section id="header" style="background-color: #E3E6F3; width:100%;height:80px;">
@@ -60,7 +59,7 @@
                                 </ul>
                             <div>
                         </li>
-                        <li><a href="#">Cosmetics</a></li>
+                        <li><a href="cosmetics.jsp">Cosmetics</a></li>
                         <li><a href="jewelry.jsp">Jewelry</a></li>
                         <li><a href="cart.jsp"><i class="fa-solid fa-cart-shopping"></i></i></a></li>
                         <li><a href="signUp.jsp"><i class="fa fa-user-circle" aria-hidden="true"></i></a></li>
@@ -76,16 +75,16 @@
                 Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/green_supermarkect", "root", "");
                 Statement st = con.createStatement();
                 String itemId = request.getParameter("id");
-                String str = "select clothes_id, clothes_name, prices,item_des, image_path from clothes_details where clothes_id= '" +itemId+ "' " ;
+                String str = "select shoes_id, shoes_name, prices,shoes_des, image_path from shoes_details where shoes_id= '" +itemId+ "' " ;
                 ResultSet rs = st.executeQuery(str);
                 while (rs.next()) {
-                    String itemName = rs.getString("clothes_name");
+                    String itemName = rs.getString("shoes_name");
                     int itemPrice = rs.getInt("prices");
                     String imagePath = rs.getString("image_path");
-                    String itemDescription = rs.getString("item_des");
+                    String itemDescription = rs.getString("shoes_des");
                     out.println("<section id='prodetails' class='section-p1'>");
                     out.println("<div class='single-pro-image'>");
-                    out.println("<img src=" + imagePath + " id=''style='width:80%; padding:40px 120px'><br><br>");
+                    out.println("<img src=" + imagePath + " id=''style='width:690px; padding:40px 120px'><br><br>");
                     out.println("</div>");
                     out.println("<div class='single-pro-details'>");
                     out.println("<h3>" + itemName + "</h3> <br><br>");
@@ -139,33 +138,5 @@
                 <p>E Commerces App - 2023</p>
             </div>
         </footer> 
-
-        <script>
-            function addToCart(itemName, itemPrice, imagePath) {
-                // Step 1: Retrieve existing data from localStorage
-                var existingItems = localStorage.getItem('items');
-                //console.log(existingItems);
-                // Step 2: Parse existing data (or initialize an empty array)
-                var itemsArray = existingItems ? JSON.parse(existingItems) : [];
-
-                // Step 3: Add the new item to the array
-                var newItem = {
-                    name: itemName,
-                    prices: itemPrice,
-                    image: imagePath,
-                    qty: 1
-                };
-                itemsArray.push(newItem);
-
-                // Step 4: Stringify the updated array
-                var updatedItems = JSON.stringify(itemsArray);
-
-                // Step 5: Store the updated array back in localStorage
-                localStorage.setItem('items', updatedItems);
-
-                // Optional: Log the updated array
-                console.log(updatedItems);
-            }
-        </script>
     </body>
 </html>
