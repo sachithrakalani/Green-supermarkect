@@ -144,13 +144,10 @@
         //var val = document.getElementById(num).value;
         var value = document.getElementById("num").value;
         //console.log (value);
-        // Step 1: Retrieve existing data from localStorage
         var existingItems = localStorage.getItem('items');
-
-        // Step 2: Parse existing data (or initialize an empty array)
+        
         var itemsArray = existingItems ? JSON.parse(existingItems) : [];
 
-        // Step 3: Add the new item to the array
         var newItem = {
             name: itemName,
             prices: itemPrice,
@@ -159,13 +156,10 @@
         };
         itemsArray.push(newItem);
 
-        // Step 4: Stringify the updated array
         var updatedItems = JSON.stringify(itemsArray);
 
-        // Step 5: Store the updated array back in localStorage
         localStorage.setItem('items', updatedItems);
-
-        // Optional: Log the updated array
+        
         //console.log(updatedItems);
     }
 </script>
