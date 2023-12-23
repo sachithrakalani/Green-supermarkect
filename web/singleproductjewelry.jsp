@@ -90,7 +90,7 @@
                     out.println("<h3>" + itemName + "</h3> <br><br>");
                     out.println("<h2> LKR: " + itemPrice + ".00 </h2> <br><br>");
                     //out.println("<p>" + itemDescription + " </p> <br><br>");
-                    out.println("<input type='number' value='1'>");
+                    out.println("<input type='number' value='1' id='num'>");
                     //out.println("<button id='normal' onclick='addToCart(" + itemName + ","+ itemPrice + ")'>Add To Cart</button> <br><br>");
                     //String buttonScript = "addToCart('" + itemName + "','" + itemPrice + "')";
                     //out.println("<button id='normal' onclick='" + buttonScript + "'>Add To Cart</button>");
