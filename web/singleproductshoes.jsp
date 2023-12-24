@@ -90,7 +90,7 @@
                     out.println("<h3>" + itemName + "</h3> <br><br>");
                     out.println("<h2> LKR: " + itemPrice + ".00 </h2> <br><br>");
                     out.println("<p>" + itemDescription + " </p> <br><br>");
-                    out.println("<input type='number' value='1'>");
+                    out.println("<input type='number' value='1' id='num'>");
                     //out.println("<button id='normal' onclick='addToCart(" + itemName + ","+ itemPrice + ")'>Add To Cart</button> <br><br>");
                     //String buttonScript = "addToCart('" + itemName + "','" + itemPrice + "')";
                     //out.println("<button id='normal' onclick='" + buttonScript + "'>Add To Cart</button>");
@@ -137,6 +137,31 @@
             <div class="copyright">
                 <p>E Commerces App - 2023</p>
             </div>
-        </footer> 
+        </footer>
+        
+        <script>
+    function addToCart(itemName, itemPrice, imagePath) {
+        //var val = document.getElementById(num).value;
+        var value = document.getElementById("num").value;
+        //console.log (value);
+        var existingItems = localStorage.getItem('items');
+        
+        var itemsArray = existingItems ? JSON.parse(existingItems) : [];
+
+        var newItem = {
+            name: itemName,
+            prices: itemPrice,
+            image: imagePath,
+            qty: value
+        };
+        itemsArray.push(newItem);
+
+        var updatedItems = JSON.stringify(itemsArray);
+
+        localStorage.setItem('items', updatedItems);
+        
+        //console.log(updatedItems);
+    }
+</script>
     </body>
 </html>

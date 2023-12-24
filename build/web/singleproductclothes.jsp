@@ -91,7 +91,7 @@
                     out.println("<h3>" + itemName + "</h3> <br><br>");
                     out.println("<h2> LKR: " + itemPrice + ".00 </h2> <br><br>");
                     out.println("<p>" + itemDescription + " </p> <br><br>");
-                    out.println("<input type='number' value='1'>");
+                    out.println("<input type='number' value='1' id='num'> ");
                     //out.println("<button id='normal' onclick='addToCart(" + itemName + ","+ itemPrice + ")'>Add To Cart</button> <br><br>");
                     //String buttonScript = "addToCart('" + itemName + "','" + itemPrice + "')";
                     //out.println("<button id='normal' onclick='" + buttonScript + "'>Add To Cart</button>");
@@ -141,31 +141,28 @@
         </footer> 
 
         <script>
-            function addToCart(itemName, itemPrice, imagePath) {
-                // Step 1: Retrieve existing data from localStorage
-                var existingItems = localStorage.getItem('items');
-                //console.log(existingItems);
-                // Step 2: Parse existing data (or initialize an empty array)
-                var itemsArray = existingItems ? JSON.parse(existingItems) : [];
+    function addToCart(itemName, itemPrice, imagePath) {
+        
+        var value = document.getElementById("num").value;
+        console.log (value);
+        var existingItems = localStorage.getItem('items');
 
-                // Step 3: Add the new item to the array
-                var newItem = {
-                    name: itemName,
-                    prices: itemPrice,
-                    image: imagePath,
-                    qty: 1
-                };
-                itemsArray.push(newItem);
+        var itemsArray = existingItems ? JSON.parse(existingItems) : [];
 
-                // Step 4: Stringify the updated array
-                var updatedItems = JSON.stringify(itemsArray);
+        var newItem = {
+            name: itemName,
+            prices: itemPrice,
+            image: imagePath,
+            qty: value
+        };
+        itemsArray.push(newItem);
 
-                // Step 5: Store the updated array back in localStorage
-                localStorage.setItem('items', updatedItems);
+        var updatedItems = JSON.stringify(itemsArray);
 
-                // Optional: Log the updated array
-                console.log(updatedItems);
-            }
-        </script>
+        localStorage.setItem('items', updatedItems);
+
+        console.log(updatedItems);
+    }
+</script>
     </body>
 </html>
