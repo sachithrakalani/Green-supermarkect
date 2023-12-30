@@ -1,4 +1,4 @@
-create database green_supermarkect;
+ create database green_supermarkect;
 use green_supermarkect;
 create table user_info(
     -> first_name varchar(50),
